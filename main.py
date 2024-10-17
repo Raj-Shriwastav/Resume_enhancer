@@ -7,8 +7,6 @@ import PyPDF2
 from collections import Counter
 import re
 
-# Set up the Gemini API
-# gemini_api_key = st.secrets["gemini_api_key"] if "gemini_api_key" in st.secrets else os.getenv("gemini_api_key")
 genai.configure(api_key="AIzaSyA6Bl6zg6bcFaA4Y8LyuAgNGrw2BxujRwQ")
 
 
